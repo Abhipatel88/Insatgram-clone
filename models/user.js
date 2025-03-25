@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect("mongodb://127.0.0.1:27017/instagram-web")
+mongoose.connect("mongodb+srv://210120107008:phhPwCKCibXvawSd@renting.1rkcy.mongodb.net/instagram?retryWrites=true&w=majority&tls=true")
 
 const userSchema = new mongoose.Schema({
     username: {
